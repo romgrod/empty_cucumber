@@ -1,24 +1,19 @@
 # EmptyCucumber
 
-TODO: Write a gem description
+With this gem you can create an empty Cucumber project sctructure
 
 ## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'empty_cucumber'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
 
     $ gem install empty_cucumber
 
 ## Usage
 
-TODO: Write usage instructions here
+Positioned where you want to create a new Cucumber Project you can type:
+
+    $ empty_cucumber <project_name>
+
+This will create a new folder with the name of <project_name> and a cucumber folders structure in it. Some example files are creted. Ensure to delete them.
+
 
 ## Contributing
 
