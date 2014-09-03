@@ -31,11 +31,15 @@ module EmptyCucumber
     end
 
     def copy_cucumber_yml
-      template "cucumber.yml.tt", "#{name}/features/cucumber.yml"
+      template "cucumber.yml.tt", "#{name}/cucumber.yml"
     end
 
     def copy_steps_def_file
       template "steps_example.rb.tt", "#{name}/features/step_definitions/steps_example.rb"
+    end
+
+    def copy_rakefile_file
+      template "rakefile.rb.tt", "#{name}/Rakefile"
     end
 
     def copy_gemfile
